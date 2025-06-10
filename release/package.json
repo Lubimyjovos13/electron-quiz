@@ -1,0 +1,46 @@
+{
+  "name": "quizApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --dir"
+  },
+  "author": "Cyber Potato",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "asar": true,
+    "compression": "maximum",
+    "npmRebuild": false,
+    "removePackageScripts": true,
+    "nodeGypRebuild": false,
+    "files": [
+      "**/*",
+      "!**/node_modules/**/*",
+      "!**/.vscode",
+      "!**/.gitignore",
+      "!*.log",
+      "!*.map"
+    ],
+    "appId": "com.lubimyjovos13.name",
+    "productName": "QuizApp",
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/win_quiz.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/mac_quiz.icns"
+    }
+  }
+}
