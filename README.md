@@ -36,3 +36,6 @@ release/
 ├── package-lock.json
 ├── quiz-over.png
 ```
+## App Installation 
+- [On Mac]()
+- [On Windows]()
