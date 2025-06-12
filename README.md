@@ -31,7 +31,7 @@ release/
 │   ├── questions.js        # Question datasets
 │   └── script.js           # Quiz logic and timer functionality
 ├── build/             # icons
-├── main.js
+├── main.js            # window application logic  
 ├── package.json
 ├── package-lock.json
 ├── quiz-over.png
