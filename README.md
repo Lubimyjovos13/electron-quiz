@@ -38,4 +38,4 @@ release/
 ```
 ## App Installation 
 - [On Mac](https://github.com/Lubimyjovos13/electron-quiz/releases/tag/mac)
-- [On Windows]()
+- [On Windows](https://github.com/Lubimyjovos13/electron-quiz/releases/tag/win)
