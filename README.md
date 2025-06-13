@@ -37,5 +37,5 @@ release/
 ├── quiz-over.png
 ```
 ## App Installation 
-- [On Mac]()
+- [On Mac](https://github.com/Lubimyjovos13/electron-quiz/releases/tag/mac)
 - [On Windows]()
